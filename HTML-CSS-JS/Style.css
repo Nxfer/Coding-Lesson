@@ -1,0 +1,142 @@
+@font-face {
+    font-family: PlaypenSans;
+    src: url(font/PlaypenSans-VariableFont_wght.ttf);
+}
+
+
+body{
+    background-color: rgb(224, 203, 203);
+}
+
+h1{
+    color: rgb(210, 27, 127);
+}
+
+#p1{
+    color: brown;
+}
+
+#p2{
+    color: rgb(4, 230, 30);
+}
+
+#p3{
+    color: rgb(41, 150, 217);
+}
+
+#p4{
+    color: rgb(101, 10, 193);
+}
+
+.ganjil{
+    color: blue;
+}
+
+.genap{
+    color:red
+}
+
+.sans{
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif ;
+    font-size: 1.4em;
+    font-weight: bold;
+
+}
+
+.playpen{
+    font-family: "PlaypenSans" ;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#bold{
+    border: 3px solid rgb(69, 160, 240);
+    border-radius: 10px;
+}
+
+#headborder{
+    border-bottom: 3px dashed rgb(252, 43, 1);
+}
+
+
+#shadow{
+    /* 
+    2px pertama adalah vertikal
+    2px kedua adalah horizontal
+    2px ketiga adalah blur
+    */
+    text-shadow: 2px 2px 2px red, -2px -2px 2px blue;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px dashed red;
+}
+
+#kotak1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    box-shadow: 2px 2px 5px blue;
+}
+
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    
+}
+
+#box2{
+    background-color: blue;
+    margin: 25px;
+    align-content: center;
+}
+
+#box3{
+    background-color: red;
+    margin-left: 50px;
+}
+
+#jansen{
+    float: left;
+    margin: 10px;
+}
+
+#gacor{
+    float: right;
+    margin: 10px;
+}
+
+#lololo{
+    border: 3px solid;
+    display: flow-root;
+}
+
+.kocak{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#overflow{
+    border: 3px solid;
+    height: 50px;
+    overflow: auto;
+}
+
+.ngotak{
+    border: 3px solid;
+    padding: 25px;
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+
+    min-height: 60%;
+
+}
+
+#container{
+    background-color: rgb(70, 61, 61);
+}
+
+

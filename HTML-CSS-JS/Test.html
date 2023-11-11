@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS for the animation */
+    .square {
+      width: 50px;
+      height: 50px;
+      background-color: blue;
+      position: absolute;
+      animation: moveRight 4s linear infinite;
+    }
+
+    @keyframes moveRight {
+      0% {
+        left: 0%;
+      }
+      100% {
+        left: 1%; /* Move the square to the right */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="square"></div>
+</body>
+</html>
